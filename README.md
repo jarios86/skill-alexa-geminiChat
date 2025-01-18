@@ -1,20 +1,20 @@
 # Alexa GeminiChat
-### Modelo de Skill Alexa para integrar o Google Gemini nos dispositivos Alexa
+### Modelo de Alexa Skill para integrar Google Gemini en dispositivos Alexa
 
-**Visite o cana [Scintilla Hub](https://www.youtube.com/@scintillahub) no YouTube**
+**Visita el canal [Scintilla Hub](https://www.youtube.com/@scintillahub) en YouTube**
 
 ## Requisitos
-* Com uma conta Google gere uma chave de autenticação API site da [Google AI Developer](https://ai.google.dev/). Copie e guarde a chave, elá só será visível no instante da criação.
-* Crie uma conta na [Amazon](https://www.amazon.com/ap/signin?openid.pape.preferred_auth_policies=Singlefactor&clientContext=132-2293245-7926858&openid.pape.max_auth_age=7200000&openid.return_to=https%3A%2F%2Fdeveloper.amazon.com%2Falexa%2Fconsole%2Fask&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_dante_us&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&) e realize o login no _Alexa Developer Console_.
-## Criando a Skill Alexa
-Crie uma Skill Alexa-hosted (Python) na Alexa: (_Create Skill_)
+*  Con una cuenta de Google, generar una clave de autenticación API en el sitio web de [Google AI Developer](https://ai.google.dev/). Copia y guarda la clave, sólo será visible cuando se cree.
+* Crear una cuenta de [Amazon](https://www.amazon.com/ap/signin?openid.pape.preferred_auth_policies=Singlefactor&clientContext=132-2293245-7926858&openid.pape.max_auth_age=7200000&openid.return_to=https%3A%2F%2Fdeveloper.amazon.com%2Falexa%2Fconsole%2Fask&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_dante_us&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&) e iniciar sesión en la _Consola de Desarrollador de Alexa_.
+## Crear una Alexa Skill
+Crea una Alexa-hosted (Python) Skill en Alexa (_Create Skill_)
 
-1. Name your Skill: Escolha um nome de sua preferência (Ex: GeminiGPT)
-2. Choose a primary locale: Portuguese (BR)
-3. Clique em _Next_. Em tipo de experiência selecione: Other > Custom > _Alexa-hosted (Python)_
-4. _Hosting region_: Pode deixar o padrão _US East (N. Virginia)_
-5. Em _Templates_: Clique em _Import Skill_
-6. Insira o endereço do repositório: https://github.com/Machally/skill-alexa-geminiChat.git e confirme.
+1. Name your Skill: Elige un nombre de tu elección (Ex: Chat GPT)
+2. Choose a primary locale: Spanish (Spain)
+3. Clik _Next_. En Tipo de habilidad selecciona: Other > Custom > _Alexa-hosted (Python)_
+4. _Hosting region_: Puedes dejar la predeterminada _US East (N. Virginia)_ o Seleccionar _EU (Ireland)_
+5.  En _Templates_: Clik _Import Skill_
+6. Introduce la dirección del repositorio: https://github.com/jarios86/skill-alexa-geminiChat.git y acepta.
 
 ## Configurando a Skill
 Ao finalizar a importação em _Invocations_ > _Skill Invocation Name_:
