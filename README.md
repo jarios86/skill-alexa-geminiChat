@@ -16,21 +16,21 @@ Crea una Alexa-hosted (Python) Skill en Alexa (_Create Skill_)
 5.  En _Templates_: Clik _Import Skill_
 6. Introduce la dirección del repositorio: https://github.com/jarios86/skill-alexa-geminiChat.git y acepta.
 
-## Configurando a Skill
-Ao finalizar a importação em _Invocations_ > _Skill Invocation Name_:
-1. Edite _Skill Invocation Name_. Este será o comando de invocação para sua skill. Se atende para os requisitos e restrições de palavras
-2. Clique em _Save_
-3. Realize o Build da Skill clicando em _Build Skill_. Ao finalizar, vá para a aba **Code**
-4. Crie um arquivo dentro da pasta Lambda chamado _.env_ e adicione a linha, adicionando a API key gerada:
+## Configurando la Skill
+Cuando la importación se haya completado en _Invocations_ > _Skill Invocation Name_:
+1. Editar _Skill Invocation Name_. Este será el comando de invocación para su skill. Si cumple con los requisitos y restricciones de palabras.
+2. Clik en _Save_
+3.  Cree la habilidad haciendo clic en _Build Skill_. Cuando termine, vaya a la pestaña **Code**
+4.  Crea un archivo dentro de la carpeta Lambda llamado .env y añade la línea que añade la clave API generada:
    ```shell
-   GOOGLE_API_KEY=SuaApiKeyGoogleAI
+   GOOGLE_API_KEY=TuClaveApiGoogleAI
    ```
-5. Clique em _Save_ e então em _Deploy_
+5. Clik en _Save_ y luego en _Deploy_
    
-## Teste da Skill
-Ao finalizar o _deploy_ vá para aba **Test**:
-1. Em _Skill testing is enabled in_ mude de _Off_ para _Development_
-2. Para usar comandos de voz aceite a requisição de uso do microfone pelo site, e para falar clique e segure o ícone de mic, e solte para enviar
-3. Use comando de ativação configurado para iniciar a Skill, e pronto está interagindo com o Gemini pela Alexa!
+## Prueba de la Skill
+Una vez completado el _deploy_ ve a la pestaña **Test**:
+1. En _Skill testing is enabled in_ cambia de _Off_ a _Development_
+2. Para utilizar los comandos de voz acepte la solicitud del sitio para utilizar el micrófono, y para hablar haga clic y mantenga pulsado el icono del micrófono, y suelte para enviar.
+3. Utiliza el comando de activación configurado para iniciar la Skill, ¡y ya estás listo para interactuar con Gemini a través de Alexa!
 
-A Skill já estará disponível em todos os dispositivos Alexa vinculados a sua conta.
+La Skill estará ahora disponible en todos los dispositivos Alexa vinculados a tu cuenta.
